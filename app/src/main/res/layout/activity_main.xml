@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/main_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_gravity="bottom"
+              android:baselineAligned="false">
+
+  <LinearLayout
+    android:id="@+id/trackMenuItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="8dp">
+
+    <TextView
+      android:id="@+id/trackMenuItemText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center"
+      android:text="menuA"
+      android:textAllCaps="true"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/wifiMenuItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="8dp">
+
+    <TextView
+      android:id="@+id/wifiMenuItemText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center"
+      android:text="menuB"
+      android:textAllCaps="true"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/mapMenuItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="8dp">
+
+    <TextView
+      android:id="@+id/mapMenuItemText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center"
+      android:text="menuc"
+      android:textAllCaps="true"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/shopMenuItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="8dp">
+
+    <TextView
+      android:id="@+id/shopMenuItemText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center"
+      android:text="menud"
+      android:textAllCaps="true"/>
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:id="@+id/moreMenuItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+      android:id="@+id/moreMenuItemImage"
+      android:layout_width="26dp"
+      android:layout_height="26dp"
+      android:layout_gravity="center"
+      android:src="@drawable/hamburger"/>
+
+    <TextView
+      android:id="@+id/moreMenuItemText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center"
+      android:text="more"/>
+  </LinearLayout>
+
+</LinearLayout>
